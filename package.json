@@ -28,7 +28,7 @@
     "examples/*"
   ],
   "scripts": {
-    "install": "yarn && yarn build",
+    "install": "yarn build",
     "setup": "yarn && yarn build",
     "watch": "lerna run --stream watch --no-private",
     "build": "lerna run --stream build --no-private",
